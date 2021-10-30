@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color);
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+:root {
+  --background-color: #f5fffa;
+  --text-color: rgb(20, 20, 20);
+  --icons-color: rgb(255, 244, 244);
+  --hover-color: rgb(253, 66, 66);
+}
+
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--background-color);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+}
+.header-logo {
+  display: flex;
+  margin: auto 10%;
+}
+.header-items {
+  margin: auto 10%;
+}
+.ul-items {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: auto 10px;
+}
+.item {
+  color: var(--text-color);
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.item:hover {
+  color: var(--hover-color);
+  padding: 0 20px;
+  transition: 0.4s;
+}
+.header-after {
+  height: 910px;
+  background-image: url(/img/meomeo.png);
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+}
+.title {
+  padding: 100px 10% 0px 10%;
+  font-size: 80px;
+}
+.button-title {
+  display: flex;
+  margin: 0 10%;
+}
+.button {
+  padding: 20px 30px;
+  border: 2px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.button:hover {
+  padding: 20px 40px;
+  border: 2px solid rgb(99, 99, 99);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  transition: 0.4s;
+  background-color: rgba(88, 88, 88, 0.2);
+}
+.hobby-logo {
+  margin: 10px 10%;
+  transition: transform 0.4s;
+}
+.hobby-content {
+  margin: auto 10%;
+}
+.hobby-logo:hover {
+  transform: scale(1.2);
+}
+.hobby {
+  display: flex;
+}
+.school {
+  display: flex;
+  flex-direction: row-reverse;
+  border-bottom: 1px solid rgba(88, 88, 88, 0.2);
+}
+.school-logo {
+  margin: 10px 10%;
+  transition: transform 0.4s;
+}
+.school-logo:hover {
+  transform: scale(1.2);
+}
+.school-content {
+  margin: auto 10%;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  height:200px;
+  background: rgb(83,73,255);
+  background: linear-gradient(212deg, rgba(83,73,255,1) 0%, rgba(110,225,247,1) 100%);
+}
+.skill-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.skill-list-items{
+  padding: 10px 20px;
+  background-color: #FFEF70;
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+  border-radius: 5px;
+}
+

@@ -1,0 +1,17 @@
+About me: 
+
+Introduce - Name + Born + Life, School + major, Hobby
+	- basic-info: My name is Quang, I'm 20 years old (still single). I was born in Hanoi but the country-side.
+	My hometown has a famous place that is Huong Pagoda.
+	- shool-major: That's where I'm studying, Academy of Cryptography Techniques. I'm a 3rd year student and my major is Infomation Security
+	That's is an very cool major and also very difficult. 
+	- hobby: I love computer, I love creating things that are useful to the community. Beside, I'm a calm person and I alway thinks before say something
+	(It's not weird that sometime I say nothing)
+ 
+Skill: CTF, Hacking Lab...
+	- I have join very much CTF contest, Lab hacking on tryhackme or hackthebox and practice with some vulnerable bug on windows, linux with basic level
+	// I'm a windows user but I think Linux is better for Pentest and I can do something interesting on that. 
+	
+Contact Footer
+
+
